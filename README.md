@@ -61,6 +61,8 @@ your compute costs.
 
 Think of your code as a cooperating system of event handlers.
 
+Or maybe a collection of transormations.
+
 ## Designing Service Coordinators
 
 The service offerings will dictate your design.  Sometimes you will have to compromise
@@ -83,7 +85,7 @@ You have to care about bloated library code. If you run a Java container, you do
 really care because you only start it up once in a while. But if you are implementing
 an ephemeral computation, you don't want 60 seconds of startup to run 300ms of compute.
 
-Ephemeral operating environments don't offer many choices for implementation
+Ephemeral computing environments don't offer many choices for implementation
 technology. AWS Lambda offers Node.js, Java, and Python. That's it. Technically, in Lambda,
 you can launch a native command by bundling it and shelling to it from your code but that's
 not an easy-to-maintain solution.
