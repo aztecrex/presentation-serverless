@@ -1,5 +1,7 @@
 # Serverless Architecture
 
+Progress toward full utilization...
+
 ## What Is It
 
 - Ephemeral computing
